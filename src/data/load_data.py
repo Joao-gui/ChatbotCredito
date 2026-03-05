@@ -47,4 +47,31 @@ def load_raw_data(filename="credit_risk_dataset.csv", output="data/raw"):
 
         return df
 
-load_raw_data()
+def load_custom_data(filename: str, output="data/processed"):
+    # __file__ -> variável que contém o caminho do arquivo Python atual que está executado.
+    # Path(__file__) -> transforma esse caminho em um objeto Path, que permite manipular diretórios facilmente.
+    # .resolve() -> converte o caminho para caminho absoluto real, resolvendo links simbólicos.
+    current_file = Path(__file__).resolve()
+    # .parent -> retorna a pasta que contém o arquivo
+    data_folder = current_file.parent
+    # .parent -> retorna a pasta que contém o arquivo
+    src_folder = data_folder.parent
+    # .parent -> retorna a pasta que contém o arquivo
+    base_dir = src_folder.parent
+
+    # Custom path
+    custom_path = os.path.join(base_dir, output)
+
+    # Custom file
+    file_path_destiny = os.path.join(custom_path, filename)
+
+    if os.path.exists(file_path_destiny):
+        print(f"Arquivo existe, carregando Dataframe {file_path_destiny}")
+
+        # Create dataframe
+        df = pd.read_csv(file_path_destiny)
+
+        return df
+
+    else:
+        print("Arquivo inexistente, favor gerar o arquivo antes de carregar.")
