@@ -8,8 +8,7 @@ from pathlib import Path
 def load_raw_data(filename="credit_risk_dataset.csv", output="data/raw"):
     #base_dir = Path(__file__).resolve().parent.parent.parent
     current_file = Path(__file__).resolve()
-    data_folder = current_file.parent
-    src_folder = data_folder.parent
+    src_folder = current_file.parent
     base_dir = src_folder.parent
 
     # Custom path
@@ -53,9 +52,7 @@ def load_custom_data(filename: str, output="data/processed"):
     # .resolve() -> converte o caminho para caminho absoluto real, resolvendo links simbólicos.
     current_file = Path(__file__).resolve()
     # .parent -> retorna a pasta que contém o arquivo
-    data_folder = current_file.parent
-    # .parent -> retorna a pasta que contém o arquivo
-    src_folder = data_folder.parent
+    src_folder = current_file.parent
     # .parent -> retorna a pasta que contém o arquivo
     base_dir = src_folder.parent
 
