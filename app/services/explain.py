@@ -1,1 +1,0 @@
-# Integração com IA (explicações com OpenAI)
