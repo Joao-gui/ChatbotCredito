@@ -26,9 +26,9 @@ def predict(data: dict):
         probability1 = model.predict_proba(df)[0][1]
 
         return {
-            "predicao": int(prediction),
-            "probabilidade_0": float(probability0),
-            "probabilidade_1": float(probability1)
+            "prediction": int(prediction),
+            "probability_default0": float(probability0),
+            "probability_default": float(probability1)
         }
 
     except Exception as e:
