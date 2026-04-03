@@ -1,4 +1,4 @@
-# 💳 Chatbot de Análise de Crédito
+# 💳 Projeto: Chatbot de Análise de Crédito
 
 Projeto de Machine Learning com deploy utilizando **FastAPI + Streamlit + Docker** para análise de risco de crédito.
 
@@ -21,7 +21,6 @@ O usuário insere dados financeiros e pessoais, e o sistema retorna:
 - 📈 Probabilidade de default
 
 ![1775252627019](image/README/1775252627019.png)
-
 
 ![1775252646887](image/README/1775252646887.png)
 
@@ -64,7 +63,6 @@ chatbotcredito/
 ---
 
 ## ⚙️ Como rodar o projeto
-
 
 ### 🔹 1. Clonar o repositório
 
@@ -123,4 +121,8 @@ Exemplo de saída:
 
 ## 👨‍💻 Autor
 
-João Guilherme Pellacani
+**João Guilherme Pellacani** - Engenheiro Elétrico com foco em Inteligência Artificial.
+
+[LinkedIn](https://www.linkedin.com/in/joao-guilherme-pellacani/) | [GitHub](https://github.com/Joao-gui)
+
+“A inteligência é o resultado de milhões de anos de evolução, que não podem ser computados em código binário” – **Miguel Nicolelis**
