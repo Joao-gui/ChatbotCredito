@@ -1,4 +1,47 @@
-.vscode
-conda
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Documentos
 Chatbot passos.odt
 Chatbot passos.pdf
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.tar
+
+# Modelos grandes (opcional)
+models/*.pkl
+
+# Cache Streamlit
+.streamlit/
+
+# Dados sensíveis
+.env
+
+# Build
+dist/
+build/
+*.egg-info/
