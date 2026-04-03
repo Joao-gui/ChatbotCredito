@@ -33,7 +33,7 @@ Thumbs.db
 *.tar
 
 # Modelos grandes (opcional)
-models/*.pkl
+#models/*.pkl
 
 # Cache Streamlit
 .streamlit/
