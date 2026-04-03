@@ -49,7 +49,7 @@ if st.button('Analisar crédito'):
         "cb_person_cred_hist_length": cb_person_cred_hist_length
     }
 
-    response = requests.post("http://127.0.0.1:8000/predict", json=data)
+    response = requests.post("http:api:8000/predict", json=data)
 
     if response.status_code == 200:
         result = response.json()
