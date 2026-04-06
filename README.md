@@ -20,7 +20,7 @@ O usuário insere dados financeiros e pessoais, e o sistema retorna:
 - ✅ Predição: risco de inadimplência (0 ou 1)
 - 📈 Probabilidade de default
 
-![ChatBot](https://i.imgur.com/YV5kpa6.gif)
+![ChatBot](image/README/gif_api.gif "API Chat")
 
 ---
 
