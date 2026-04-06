@@ -20,9 +20,7 @@ O usuário insere dados financeiros e pessoais, e o sistema retorna:
 - ✅ Predição: risco de inadimplência (0 ou 1)
 - 📈 Probabilidade de default
 
-![1775252627019](image/README/1775252627019.png)
-
-![1775252646887](image/README/1775252646887.png)
+![Demo]([https://media.giphy.com/media/xyz/giphy.gif](https://imgur.com/a/5kEy6V6))
 
 ---
 
