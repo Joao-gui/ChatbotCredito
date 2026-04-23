@@ -119,7 +119,7 @@ Exemplo de saída:
 
 ## 👨‍💻 Autor
 
-**João Guilherme Pellacani** - Engenheiro Elétrico com foco em Inteligência Artificial.
+**João Guilherme Pellacani** - Engenheiro Eletricista com foco em Inteligência Artificial.
 
 [LinkedIn](https://www.linkedin.com/in/joao-guilherme-pellacani/) | [GitHub](https://github.com/Joao-gui)
 
